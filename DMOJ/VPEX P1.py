@@ -1,0 +1,7 @@
+a = input().split(" ")
+b = input().split(" ")
+minA = min(a[1], a[2], a[3], a[4], a[0])
+maxA = int(a[1]) + int(a[2]) + int(a[3]) + int(a[4]) + int(a[0]) - int(minA)
+minB = min(b[1], b[2], b[3], b[4], b[0])
+maxB = int(b[1]) + int(b[2]) + int(b[3]) + int(b[4]) + int(b[0]) - int(minB)
+print(max(int(maxB), int(maxA)))

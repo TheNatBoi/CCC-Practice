@@ -1,0 +1,1 @@
+a = input()b = int(a,2)c = list(oct(b))d = "".join(c[2:])print(d)
